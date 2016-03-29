@@ -1,7 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f77eca3-bd52-495d-a687-02929c0ba77e" name="Default" comment="" />
+    <list default="true" id="4f77eca3-bd52-495d-a687-02929c0ba77e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/testCluster.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/userInfo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskPackages/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flaskext/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/res/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/initData/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqliteDB/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqliteDB/initDB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqliteDB/model.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/lib/python2.5/site-packages/SiteEgg.egg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/recService.iml" afterPath="$PROJECT_DIR$/.idea/recService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/cluster.py" afterPath="$PROJECT_DIR$/controller/cluster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/collFilter.py" afterPath="$PROJECT_DIR$/controller/collFilter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runWebApp.py" afterPath="$PROJECT_DIR$/runWebApp.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/_compat.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/_compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/app.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/app.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/blueprints.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/blueprints.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/config.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/config.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/ctx.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/ctx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/debughelpers.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/debughelpers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/ext/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/ext/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/exthook.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/exthook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/globals.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/globals.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/helpers.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/helpers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/json.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/json.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/logging.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/logging.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/module.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/module.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/sessions.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/sessions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/signals.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/signals.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/templating.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/templating.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testing.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/appctx.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/appctx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/basic.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/basic.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/blueprints.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/blueprints.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/config.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/config.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/deprecations.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/deprecations.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/examples.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/examples.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/ext.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/ext.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/helpers.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/helpers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/regression.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/regression.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/reqctx.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/reqctx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/signals.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/signals.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/static/index.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/static/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/subclassing.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/subclassing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/_macro.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/_macro.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/context_template.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/context_template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/escaping_template.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/escaping_template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/mail.txt" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/mail.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/nested/nested.txt" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/nested/nested.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/simple_template.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/simple_template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/template_filter.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/template_filter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templates/template_test.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templates/template_test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/templating.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/templating.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css/test.css" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/admin/static/css/test.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/admin/static/test.txt" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/admin/static/test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin/index.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/admin/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/frontend/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/config_module_app.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/config_module_app.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/config_package_app/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/config_package_app/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flask_broken/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flask_broken/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flask_broken/b.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flask_broken/b.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flask_newext_package/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flask_newext_package/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flask_newext_package/submodule.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flaskext/oldext_package/submodule.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flask_newext_simple.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flask_newext_simple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flaskext/__init__.py" afterPath="$PROJECT_DIR$/controller/recController.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flaskext/oldext_package/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flaskext/oldext_package/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flaskext/oldext_package/submodule.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flask_newext_package/submodule.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/flaskext/oldext_simple.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/flaskext/oldext_simple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/importerror.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/importerror.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/main_app.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/main_app.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/__init__.py" afterPath="$PROJECT_DIR$/controller/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/admin/static/css/test.css" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css/test.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/admin/static/test.txt" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/admin/static/test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/admin/templates/index.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/moduleapp/apps/frontend/templates/index.html" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/path/installed_package/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/path/installed_package/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/subdomaintestmodule/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/subdomaintestmodule/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/test_apps/subdomaintestmodule/static/hello.txt" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/test_apps/subdomaintestmodule/static/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/testing.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/testing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/testsuite/views.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/testsuite/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/views.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/flask/wrappers.py" afterPath="$PROJECT_DIR$/flaskPackages/flask/wrappers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/itsdangerous.py" afterPath="$PROJECT_DIR$/flaskPackages/itsdangerous.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/_compat.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/_compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/_stringdefs.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/_stringdefs.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/bccache.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/bccache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/compiler.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/compiler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/constants.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/constants.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/debug.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/debug.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/defaults.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/defaults.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/environment.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/exceptions.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/exceptions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/ext.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/ext.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/filters.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/filters.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/lexer.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/lexer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/loaders.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/loaders.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/meta.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/meta.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/nodes.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/nodes.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/optimizer.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/optimizer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/parser.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/runtime.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/runtime.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/sandbox.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/sandbox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/tests.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/api.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/api.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/bytecode_cache.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/bytecode_cache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/core_tags.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/core_tags.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/debug.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/debug.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/doctests.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/doctests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/ext.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/ext.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/filters.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/filters.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/imports.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/imports.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/inheritance.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/inheritance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/lexnparse.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/lexnparse.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/loader.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/loader.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/regression.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/regression.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/res/__init__.py" afterPath="$PROJECT_DIR$/common/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/res/templates/broken.html" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/res/templates/broken.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/res/templates/foo/test.html" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/res/templates/foo/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/res/templates/syntaxerror.html" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/res/templates/syntaxerror.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/res/templates/test.html" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/res/templates/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/security.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/security.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/tests.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/testsuite/utils.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/testsuite/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/utils.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/jinja2/visitor.py" afterPath="$PROJECT_DIR$/flaskPackages/jinja2/visitor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/_compat.py" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/_compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/_constants.py" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/_constants.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/_native.py" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/_native.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/_speedups.c" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/_speedups.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/markupsafe/tests.py" afterPath="$PROJECT_DIR$/flaskPackages/markupsafe/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/virtualenv.py" afterPath="$PROJECT_DIR$/flaskPackages/virtualenv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/_compat.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/_compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/_internal.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/_internal.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/atom.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/atom.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/cache.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/cache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/fixers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/fixers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/iterio.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/iterio.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/jsrouting.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/jsrouting.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/limiter.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/limiter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/lint.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/lint.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/profiler.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/profiler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/securecookie.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/securecookie.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/sessions.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/sessions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/testtools.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/testtools.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/contrib/wrappers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/contrib/wrappers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/datastructures.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/datastructures.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/console.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/console.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/repr.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/repr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/FONT_LICENSE" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/FONT_LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/console.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/console.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/debugger.js" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/debugger.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/jquery.js" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/less.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/less.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/more.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/more.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/source.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/source.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/style.css" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/shared/ubuntu.ttf" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/shared/ubuntu.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/debug/tbtools.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/debug/tbtools.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/exceptions.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/exceptions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/formparser.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/formparser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/http.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/http.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/local.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/local.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/posixemulation.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/posixemulation.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/routing.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/routing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/script.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/script.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/security.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/security.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/serving.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/serving.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/test.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testapp.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testapp.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/compat.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/compat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/__init__.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/cache.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/cache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/fixers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/fixers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/iterio.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/iterio.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/securecookie.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/securecookie.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/sessions.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/sessions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/contrib/wrappers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/contrib/wrappers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/datastructures.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/datastructures.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/debug.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/debug.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/exceptions.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/exceptions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/formparser.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/formparser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/http.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/http.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/internal.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/internal.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/local.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/local.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/collect.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/collect.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2png1txt/file1.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/ie6-2png1txt/file1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2png1txt/file2.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/ie6-2png1txt/file2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2png1txt/request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2png1txt/request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2png1txt/text.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2png1txt/text.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2pnglongtext/file1.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2pnglongtext/file1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2pnglongtext/file2.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2pnglongtext/file2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2pnglongtext/request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2pnglongtext/request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/firefox3-2pnglongtext/text.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2pnglongtext/text.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/ie6-2png1txt/file1.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2png1txt/file1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/ie6-2png1txt/file2.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/firefox3-2png1txt/file2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/ie6-2png1txt/request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/ie6-2png1txt/request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/ie6-2png1txt/text.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/ie6-2png1txt/text.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/ie7_full_path_request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/ie7_full_path_request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/opera8-2png1txt/file1.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/opera8-2png1txt/file1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/opera8-2png1txt/file2.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/opera8-2png1txt/file2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/opera8-2png1txt/request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/opera8-2png1txt/request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/opera8-2png1txt/text.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/opera8-2png1txt/text.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/webkit3-2png1txt/file1.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/webkit3-2png1txt/file1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/webkit3-2png1txt/file2.png" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/webkit3-2png1txt/file2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/webkit3-2png1txt/request.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/webkit3-2png1txt/request.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/multipart/webkit3-2png1txt/text.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/multipart/webkit3-2png1txt/text.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/res/test.txt" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/res/test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/routing.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/routing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/security.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/security.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/serving.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/serving.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/test.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/urls.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/urls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/utils.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/wrappers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/wrappers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/testsuite/wsgi.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/testsuite/wsgi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/urls.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/urls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/useragents.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/useragents.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/utils.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/wrappers.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/wrappers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/flask/werkzeug/wsgi.py" afterPath="$PROJECT_DIR$/flaskPackages/werkzeug/wsgi.py" />
+    </list>
     <ignored path="recService.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,42 +265,106 @@
     <favorites_list name="recService" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="cluster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.92857">
-              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#25#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collFilter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70221066">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collFilter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <file leaf-file-name="testCluster.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/testCluster.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#25#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/utils.py">
+        <entry file="file://$PROJECT_DIR$/common/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runWebApp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runWebApp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runWebApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38613862">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recController.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/recController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqliteDB/initDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userInfo.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqliteDB/userInfo.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqliteDB/dbTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqliteDB/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -70,13 +379,39 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cluster.py" />
         <option value="$PROJECT_DIR$/collFilter.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/controller/dbTest.py" />
+        <option value="$PROJECT_DIR$/sqliteDB/dbTest.py" />
+        <option value="$PROJECT_DIR$/../../牛客网/字符串旋转.py" />
+        <option value="$PROJECT_DIR$/controller/utils.py" />
+        <option value="$PROJECT_DIR$/controller/cluster.py" />
+        <option value="$PROJECT_DIR$/sqliteDB/model.py" />
+        <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/initData/__init__.py" />
+        <option value="$PROJECT_DIR$/flask/__init__.py" />
+        <option value="$PROJECT_DIR$/controller/__init__.py" />
+        <option value="$PROJECT_DIR$/sqliteDB/__init__.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/initData/cluster.py" />
+        <option value="$PROJECT_DIR$/initData/userInfo.txt" />
+        <option value="$PROJECT_DIR$/common/utils.py" />
+        <option value="$PROJECT_DIR$/initData/formatUserInfo.py" />
+        <option value="$PROJECT_DIR$/initData/initDB.py" />
+        <option value="$PROJECT_DIR$/sqliteDB/userInfo.sql" />
+        <option value="$PROJECT_DIR$/sqliteDB/initDB.py" />
         <option value="$PROJECT_DIR$/runWebApp.py" />
+        <option value="$PROJECT_DIR$/controller/recController.py" />
+        <option value="$PROJECT_DIR$/controller/collFilter.py" />
       </list>
     </option>
   </component>
@@ -93,7 +428,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -131,44 +466,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/临时/universal-java-matrix-package-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yangjiecloud\Desktop\杨师姐\recService\controller" />
+      <recent name="D:\MyProgramSet\yangDan\recService\controller" />
+      <recent name="D:\MyProgramSet\yangDan\recService\sqliteDB" />
+      <recent name="C:\Users\yangjiecloud\Desktop\杨师姐\recService\common" />
+      <recent name="C:\Users\yangjiecloud\Desktop\杨师姐\recService\initData" />
+      <recent name="C:\Users\yangjiecloud\Desktop\杨师姐\recService\sqliteDB" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cluster">
+  <component name="RunManager" selected="Python.initDB">
     <configuration default="false" name="cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +498,75 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="recService" />
-      <option name="SCRIPT_NAME" value="C:\Users\yangjiecloud\Desktop\杨师姐\recService\controller\cluster.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\yangjiecloud\Desktop\杨师姐\recService\initData\cluster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/initData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="recService" />
+      <option name="SCRIPT_NAME" value="D:\MyProgramSet\yangDan\recService\controller\cluster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="formatUserInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/initData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="recService" />
+      <option name="SCRIPT_NAME" value="D:\MyProgramSet\yangDan\recService\controller\testCluster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="recService" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="initDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqliteDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="recService" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqliteDB/initDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -319,16 +704,27 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.cluster" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cluster (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.formatUserInfo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.utils" />
+      <item index="4" class="java.lang.String" itemvalue="Python.initDB" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.cluster" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.initDB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.formatUserInfo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.utils" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cluster" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cluster (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4f77eca3-bd52-495d-a687-02929c0ba77e" name="Default" comment="" />
@@ -340,26 +736,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -371,9 +775,215 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/controller/cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.92857">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/testCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runWebApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/testCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runWebApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runWebApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runWebApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/utils.py">
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -395,8 +1005,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runWebApp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38613862">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/dbTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../牛客网/字符串旋转.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11881188">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initData/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/dbTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/userInfo.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/testCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqliteDB/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runWebApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/recController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/collFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70221066">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
         </state>
       </provider>

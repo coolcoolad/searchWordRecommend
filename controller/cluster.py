@@ -1,18 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from random import sample
-
-def calDist(x,y):
-  sum_ = 0
-  for i in range(len(x)):
-    sum_ += abs(x[i]-y[i])
-  return sum_
-  
-def vecPlus(x,y):
-  return [x[i]+y[i] for i in range(len(x))]
-  
-def vecDivid(x,y):
-  return [v/y for v in x]
+from common.utils import *
 
 def cluster(data,k, centers = None, maxItr = 1000,tol = 0.01):
   #如果未传入初始聚类中心，随机选取初始k个聚类中心，标记上类别
@@ -68,7 +57,7 @@ if __name__ == '__main__':
     [3.1,3.1,3.1,3.1],
 		[111,111,111,111]
   ]
-  k = 3
+  k = 4
   label, centers = cluster(data,k)
   for i,x in enumerate(data):
     print label[i],x
