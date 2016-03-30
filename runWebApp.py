@@ -4,7 +4,7 @@ import os, sys
 sys.path.insert(0, os.path.abspath('./flaskPackages'))
 from flaskPackages.flask import Flask, request
 from sqliteDB.initDB import initDB
-from controller.recController import getRecmmendListController
+from controller.recController import *
 
 app = Flask(__name__)
 
@@ -13,6 +13,14 @@ def getRecmmendList():
   try:
     uid = int(request.args.get('uid'))
     return getRecmmendListController(uid)
+  except Exception,ex:
+    return ex
+
+@app.route('/getMatchList')
+def getMatchList():
+  try:
+    key = request.args.get('search_key')
+    getMatchListController(key)
   except Exception,ex:
     return ex
 

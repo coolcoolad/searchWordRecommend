@@ -1,6 +1,16 @@
 # -*- coding: utf-8 -*-
 
 import json
+import re
+
+def getMatchResult(allKey,searchKey):
+  pattern = re.compile('.*'+searchKey+'.*')
+  jsonDict = {}
+  for key in allKey:
+    id, k, content = key
+    if pattern.match(content):
+      jsonDict[k] = content
+  return json.dumps(jsonDict,ensure_ascii=False,indent=1)
 
 def geneResult(recList,allKey):
   jsonDict = {}

@@ -7,6 +7,11 @@ from common.utils import *
 from model import *
 from collFilter import *
 
+def getMatchListController(searchKey):
+  allKey = getAllKeyInfo()
+  jsonStr = getMatchResult(allKey,searchKey)
+  return jsonStr
+
 def getRecmmendListController(uid):
   #从数据库读取用户特征
   users = getAllUserInfo()
@@ -36,4 +41,4 @@ def getRecmmendListController(uid):
   return jsonStr
 
 if __name__ == '__main__':
-  print getRecmmendListController(2)
+  print getMatchListController('温泉')
