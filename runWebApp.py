@@ -15,7 +15,8 @@ def getRecmmendList():
 
 def initData():
   initDB()
+  return
 
 if __name__ == '__main__':
   initData()
-  app.run()
+  app.run(host='23.105.199.99')

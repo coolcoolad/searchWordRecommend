@@ -1,6 +1,53 @@
 # -*- coding: utf-8 -*-
 
-#import numpy
+import json
+
+def geneResult(recList,allKey):
+  jsonDict = {}
+  for rec in recList:
+    jsonDict[rec[0]] = {'count':rec[1],'content':''}
+  for key in allKey:
+    id, k, content = key
+    if k in jsonDict:
+      jsonDict[k]['content'] = content
+  return json.dumps(jsonDict,ensure_ascii=False,indent=1)
+
+def printUserLabel(users,labels):
+  for i,user in enumerate(users):
+    id, userName, age, sex, hobby, consumLevel, hotelStar = user
+    print labels[i],userName
+
+def getGroupInfo(ids,usersInfo):
+  idSet = set(ids)
+  group = []
+  for info in usersInfo:
+    if info.id in idSet:
+      group.append(info)
+  return group
+
+def getGroupSearchInfo(ids,usersSearchInfo):
+  idSet = set(ids)
+  group = []
+  for info in usersSearchInfo:
+    id, userName, key, count = info
+    if id in idSet:
+      group.append(info)
+  return group
+
+def getGroup(labels,uLabel,users):
+  ids = []
+  for i,label in enumerate(labels):
+    id, userName, age, sex, hobby, consumLevel, hotelStar = users[i]
+    if label == uLabel:
+      ids.append(id)
+  return ids
+
+def findUserPos(uid,users):
+  for i,user in enumerate(users):
+    id, userName, age, sex, hobby, consumLevel, hotelStar = user
+    if id == uid:
+      return i
+  return -1
 
 def calDist(x,y):
   sum_ = 0
