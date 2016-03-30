@@ -14,16 +14,18 @@ def getRecmmendList():
     uid = int(request.args.get('uid'))
     return getRecmmendListController(uid)
   except Exception,ex:
-    return ex
+    print ex
+    return '参数错误 或者 程序内部错误'
 
 @app.route('/getMatchList')
 def getMatchList():
   try:
     key = request.args.get('search_key')
-    print key
+    key = key.encode('utf-8')
     return getMatchListController(key)
   except Exception,ex:
-    return ex
+    print ex
+    return '参数错误 或者 程序内部错误'
 
 def initData():
   initDB()
