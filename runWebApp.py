@@ -10,8 +10,11 @@ app = Flask(__name__)
 
 @app.route('/getRecmmendList')
 def getRecmmendList():
-  uid = request.args.get('uid')
-  return getRecmmendListController(uid)
+  try:
+    uid = int(request.args.get('uid'))
+    return getRecmmendListController(uid)
+  except Exception,ex:
+    return ex
 
 def initData():
   initDB()
