@@ -20,7 +20,7 @@ def getRecmmendList():
 def getMatchList():
   try:
     key = request.args.get('search_key')
-    getMatchListController(key)
+    return getMatchListController(key)
   except Exception,ex:
     return ex
 
